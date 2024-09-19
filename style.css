@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+body{
+    background-color: #1230AE;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi_calculator{
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.weightDiv,.heightdiv,.resultDiv{
+    margin: 20px 0px;
+}
+
+.bmi_calculator input{
+    width: 100%;
+    padding: 15px 5px;
+    outline: none;
+    color: rgb(49, 49, 49);
+    font-size: 16px;
+}
+
+.bmi_calculator input::placeholder{
+    color: rgb(49, 49, 49);
+}
+
+.bmi_calculator button{
+    border: none;
+    outline: none;
+    background-color: rgb(127, 5, 127);
+    color: white;
+    padding: 15px 30px;
+    font-size: 23px;
+    font-weight: 600;
+    width: 40%;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.bmi_calculator button:hover{
+    background-color: rgb(143, 5, 143);
+
+}
+
+.weightDiv span,.heightdiv span,.resultDiv span{
+    text-align: left;
+    color: rgb(123, 121, 121);
+    display: block;
+    margin-top: 3px;
+}
